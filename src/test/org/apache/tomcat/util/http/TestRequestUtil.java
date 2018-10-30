@@ -88,7 +88,7 @@ public class TestRequestUtil {
 
     @Test
     public void testNormalize14() {
-        doTestNormalize("//..", null);
+        doTestNormalize("/src/test/org/apache/tomcat/util/http", null);
     }
 
     @Test
